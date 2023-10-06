@@ -1,0 +1,68 @@
+#slider-wrap{
+    position: relative; 
+    overflow: hidden;
+}
+
+.product{
+    height: 550px;
+}
+
+.slider-main{
+    position: absolute;
+    width: 400%;
+    padding-left: 10%;
+}
+
+.item{
+
+}
+
+.scroll-image{
+    height: 250px;
+    width: 250px;
+}
+
+#text{
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.scroll-container{
+    position: relative;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #002157;
+}
+
+.scroll-container:hover .overlay {
+    opacity: 0.8;
+}
+
+.scroll-text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-55%, -45%);
+    text-align: center;
+}
+
+#item{
+    display: inline-block;
+    padding: 20px;
+}

@@ -1,0 +1,26 @@
+.background{
+    height: 350px;
+}
+
+
+.member{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+}
+
+.member-text{
+    padding-left: 200px; 
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #002157;
+}
+
+#member-top{
+    bottom: -55%;
+}
+
+#member-bottom{
+    bottom: -65%;
+}

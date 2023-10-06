@@ -1,0 +1,98 @@
+.buttonVisit{
+    position: absolute;
+    width: 210px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+#button1{
+    right: 500px;
+    bottom: 350px;
+    color:white;
+    border: 2px solid white;
+    background-color: gray;
+    opacity: 1;
+}
+
+#button1:hover, #button2:hover{
+    color:#023c9b;
+    border: 2px solid #023c9b;
+    background-color: white;
+}
+
+#button2{
+    right: 450px;
+    bottom: 500px;
+    color:#002157;
+    border: 2px solid #002157;
+    background-color: white;
+    opacity: 1;
+}
+
+.button{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #002157;
+    border: 2px solid #002157;
+    color:white;
+}
+
+#btnLeft{
+    right: 31%;
+}
+
+.button:hover{
+    background-color:#023c9b;
+    border: 2px solid #023c9b;
+}
+
+#banner1{
+    display: block;
+}
+
+#banner2{
+    display: none;
+}
+
+#picture{
+    position: absolute;
+    bottom: 150px;
+    right: 35%
+}
+
+#pTitle{
+    position: absolute;
+    color: #002157;
+    top: 20%;
+    left: 5%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.slides{
+    height: 650px;
+}
+
+#pContent{
+    position: absolute;
+    color: #002157;
+    top: 30%;
+    left: 5%;
+    font-size: 20px;
+    width: 430px;
+    height: 350px;
+}
+
+#block{
+    position: absolute;
+    width: 700px;
+    height: 670px;
+    border-style: none;
+    right: 0%;
+    bottom: 194px;
+    text-align: left;
+    background-image: linear-gradient(to bottom right,  #059DC0, #B8EE30);
+}
